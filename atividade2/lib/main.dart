@@ -11,8 +11,8 @@ void main() {
           fontSize: 30,
           fontWeight: FontWeight.bold,
           backgroundColor: Colors.white,
-        ), //TextStyle.
-      ), //Text.
+        ),
+      ),
     ),
   );
 }
