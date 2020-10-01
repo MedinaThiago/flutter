@@ -5,7 +5,6 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -42,7 +41,7 @@ class MyHomePage extends StatelessWidget {
             Container(
               child: Center(
                 child: SizedBox(
-                  height: 250,
+                  height: 300,
                   child: Image.network(
                     'https://images.unsplash.com/photo-1547721064-da6cfb341d50',
                   ),
