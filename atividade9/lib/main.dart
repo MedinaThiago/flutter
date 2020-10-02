@@ -50,10 +50,6 @@ class _MyHomePageState extends State<MyHomePage> {
               'Número de vezes em que o botão foi pressionado: $_counter.\nEsse número é ${_counter % 2 == 0 ? "par" : "ímpar"};',
               textAlign: TextAlign.center,
             ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
-            ),
           ],
         ),
       ),
