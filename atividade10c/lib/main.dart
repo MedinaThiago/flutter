@@ -97,7 +97,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 FlatButton(
                   color: Colors.blue,
                   textColor: Colors.white,
-                  padding: EdgeInsets.all(4.0),
+                  padding: EdgeInsets.all(8.0),
                   splashColor: Colors.blueAccent,
                   onPressed: () {
                     print(volume());
