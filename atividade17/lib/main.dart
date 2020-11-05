@@ -96,13 +96,26 @@ class RotaGenerica extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            Text(
-              "Graus Celsius: ${argumentos.celsius.toStringAsFixed(2)}",
-              style: TextStyle(
-                fontSize: 20,
-                color: Colors.green,
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text(
+                'Graus Celsius: ${argumentos.celsius.toStringAsFixed(2)}',
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.green,
+                ),
               ),
-            )
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text(
+                'Graus Fahrenheit: ${converter(argumentos.celsius).toStringAsFixed(2)}',
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.green,
+                ),
+              ),
+            ),
           ],
         ),
       ),
